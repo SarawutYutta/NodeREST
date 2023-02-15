@@ -6,7 +6,7 @@ const app = express();
 const port = process.env.POST||3000;
 
 app.get("/", (req, res) => {
-  res.send("asdasdfasdfasdfasdfasdfasdfasd");
+  res.send("asdasdfafasd");
 });
 
 app.listen(port, () => {
